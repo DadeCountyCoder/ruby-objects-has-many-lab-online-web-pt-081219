@@ -3,7 +3,7 @@ class Author
    
    @@all = []
    
-   def initialized(name.new)
+   def initialized(name)
      @name = name
      @@all << self
    end 
