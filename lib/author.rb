@@ -8,7 +8,7 @@ class Author
      #@@all << self
    end 
    
-   
+   let!(:betty) { Author.new("Betty") }
    
    def self.all
     @@all
