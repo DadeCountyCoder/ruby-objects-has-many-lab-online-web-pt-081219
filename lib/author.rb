@@ -1,9 +1,9 @@
-class Author.new
+class Author
    attr_accessor :name
    
    @@all = []
    
-   def initialized(name)
+   def initialized(name.new)
      @name = name
      @@all << self
    end 
