@@ -1,4 +1,4 @@
-class Author
+class Author.new
    attr_accessor :name
    
    @@all = []
