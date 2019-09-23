@@ -5,7 +5,7 @@ class Author
    
    def initialized(name)
      @name = name
-     @@all << self
+     #@@all << self
    end 
    
    def self.all
