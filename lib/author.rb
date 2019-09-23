@@ -1,7 +1,7 @@
 class Author
    attr_accessor :name
    
-   #@@all = []
+   @@all = []
    
    def initialized(name)
      @name = name
