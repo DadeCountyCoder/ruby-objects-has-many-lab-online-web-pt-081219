@@ -31,13 +31,13 @@ class Author
     Post.all.select {|post| post.author == self}
   end
 
-  #   def author_name
-  #   if self.author!=nil
-  #     self.author.name
-  #       elsif self.author=nil
-  #         nil
-  # end
-  #   end
+    def author_name
+    if self.author!=nil
+      self.author.name
+        elsif self.author=nil
+          nil
+  end
+    end
 
   def self.post_count
     Post.all.count
